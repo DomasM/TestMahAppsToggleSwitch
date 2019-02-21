@@ -1,0 +1,17 @@
+﻿<mah:MetroWindow  x:Class="TestMahAppsToggleSwitch.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestMahAppsToggleSwitch"
+         xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="20">
+        <StackPanel Orientation="Vertical">
+            <mah:ToggleSwitch  IsChecked="{Binding IsA, Mode=TwoWay}" OnLabel="A" OffLabel="Not A"></mah:ToggleSwitch>
+            <mah:ToggleSwitchButton  IsChecked="{Binding IsA, Mode=TwoWay}" >A??</mah:ToggleSwitchButton>
+            <ToggleButton  IsChecked="{Binding IsA, Mode=TwoWay}" >A??</ToggleButton>
+        </StackPanel>
+    </Grid>
+</mah:MetroWindow>
