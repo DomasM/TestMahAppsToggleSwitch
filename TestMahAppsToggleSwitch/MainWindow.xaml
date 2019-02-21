@@ -12,6 +12,7 @@
             <mah:ToggleSwitch  IsChecked="{Binding IsA, Mode=TwoWay}" OnLabel="A" OffLabel="Not A"></mah:ToggleSwitch>
             <mah:ToggleSwitchButton  IsChecked="{Binding IsA, Mode=TwoWay}" >A??</mah:ToggleSwitchButton>
             <ToggleButton  IsChecked="{Binding IsA, Mode=TwoWay}" >A??</ToggleButton>
+            <CheckBox  IsChecked="{Binding IsA, Mode=TwoWay}" >A??</CheckBox>
         </StackPanel>
     </Grid>
 </mah:MetroWindow>
